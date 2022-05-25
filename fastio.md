@@ -8,14 +8,6 @@
 
 应当能够被转化为 `std::size_t` 类型字面量。表示输入缓存的大小（具体实现会在末尾添加一位，值恒为 `'\0'`）。缺省值为 `(1UL << 22)`。
 
-### `MIRAI_OUTPUT_BUFFER`*
-
-打开输出缓存。
-
-### `MIRAI_OUTPUT_BUFFER_SIZE`*
-
-应当能够被转化为 `std::size_t` 类型字面量。表示输出缓存的大小。缺省值为 `(1UL << 22)`。
-
 ### `MIRAI_USE_READ_FUNC`
 
 使用 `unistd.h` 内的 `read` 函数读取。
