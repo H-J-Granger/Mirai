@@ -1,2 +1,2 @@
-# mirai
-A C++ library which include some useful patterns in competitive programming.
+# Mirai
+A C++ library which include some useful libraries in competitive programming.
